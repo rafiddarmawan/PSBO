@@ -39,7 +39,7 @@
                             <td>{{ $student -> nis}}</td>
                             <td>{{ $student -> asrama}}</td>
                             <td>
-                                <a href= class="badge badge-info">Cek Detil</a>
+                                <a href="/students/{{ $student->id }}" class="badge badge-info">Cek Detil</a>
                             </td>
                         </tr>
                     @endforeach
