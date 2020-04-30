@@ -45,6 +45,11 @@ Route::get('/Dashboard', function () {
 //Using Controller Resource from Laravel
 Route::resource('students', 'StudentsController');
 
+Route::get('/scorestudents', 'ScoreStudentsController@index');
+Route::get('/scorestudents/{student}', 'ScoreStudentsController@show');
+
+//Route::resource('score_students', 'ScoreStudentsController');
+
 //Route::get('/BiodataSiswa/{student}', 'BiodataSiswaController@show');
 
 //Route::get('/BiodataSiswa', function () {

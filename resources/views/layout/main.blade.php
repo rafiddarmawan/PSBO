@@ -141,7 +141,7 @@
                 <li><a ></i>Siswa</a></li>
                 <li><a href="{{ url ('/Dashboard') }}"><i class="fas fa-tv"></i>Dashboard</a></li>
                 <li><a href="{{ url ('/students') }}"><i class="fas fa-users"></i>Biodata Siswa</a></li>
-                <li><a href="{{ url ('/NilaiSiswa') }}"><i class="fas fa-file"></i>Nilai Siswa</a></li>
+                <li><a href="{{ url ('/scorestudents') }}"><i class="fas fa-file"></i>Nilai Siswa</a></li>
                 <li><a href="{{ url ('/Asrama') }}"><i class="fas fa-home"></i>Asrama</a></li>
                 <li><a ></i>Guru</a></li>
                 <li><a href="{{ url ('/ProfilWaliKelas') }}"><i class="fas fa-user"></i>Profil Wali Kelas</a></li>
