@@ -22,14 +22,14 @@ use Illuminate\Support\Facades\Route;
 //});
 
 Route::get('/', function () {
-    return view('dashboard');
+    return view('loginpage');
 });
 
 Route::get('/Dashboard', function () {
     return view('dashboard');
 });
 
-
+Route::post('/dashboards', 'loginController@login');
 //Route::get('/BiodataSiswa', 'BiodataSiswaController@index');
 
 //StudentsController Manual
