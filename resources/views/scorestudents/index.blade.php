@@ -7,7 +7,7 @@
 @section('container')
 <div class="container">
         <div class=table-responsive>
-            <h1 class="mt-2"> Biodata Siswa</h1>
+            <h1 class="mt-2"> Nilai Siswa</h1>
 
             <div class="my-3">
 
@@ -26,7 +26,8 @@
                         <th scope="col">No</th>
                         <th scope="col">Nama Lengkap</th>
                         <th scope="col">NIS</th>
-                        <th scope="col">Cek Detil</th>
+                        <th scope="col">Rata-Rata</th>
+                        <th scope="col">Selengkapnya</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -35,6 +36,7 @@
                             <th scope="row">{{ $loop -> iteration }}</th>
                             <td>{{ $student -> nama}}</td>
                             <td>{{ $student -> nis}}</td>
+                            <td>-</td>
                             <td>
                                 <a href="/scorestudents/{{ $student->id }}" class="badge badge-info">Cek Detil</a>
                             </td>
